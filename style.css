@@ -1,0 +1,117 @@
+/*@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+*/
+
+*{
+  /*margin: */0;
+  /*padding: 0;*/
+  font-family: 'Open Sans', sans-serif;
+
+}
+body{
+  background-color: #bdc3c7;
+  margin: auto;
+}
+
+
+
+.company-name{
+
+  float: left;
+  background-color: #eee;
+  font-family: 'Questrial', sans-serif;
+}
+
+.company-name p{
+  padding: 5px;
+  font-size: 20px;
+  background-color: #eee;
+  font-family: 'Questrial', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.little-finger{
+  font-size: 10px;
+  padding: 0px;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: white;
+    background-color: #bdc3c7;
+}
+/*carousel start*/
+.carousel-inner img {
+      width: 50%;
+      height: 60%;
+  }
+
+
+.carousel-inner {
+  position: relative;
+    width: 125%;
+    /*margin-left: 20%;*/
+    text-align: center;
+    overflow: hidden;
+    /*margin-right: 50%;*/
+}
+
+
+#title {
+  text-align: center;
+  padding-top:50px;
+  font-size:4em;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+#text{
+  font-size:18px;
+  line-height: 1.9;
+  padding: 0px 50px 25px 50px;
+font-family: 'Questrial', sans-serif;
+font-family: 'Nunito', sans-serif;
+
+}
+
+footer{
+  min-height: 200px;
+  background-color: #bdc3c7;
+}
+
+
+.left {
+  background-color: #e0ddd3;
+}
+.left h6{
+  padding:80px;
+
+}
+
+.right{
+   padding:80px;
+  background-color: #e0ddd3;
+
+}
