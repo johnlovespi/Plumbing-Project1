@@ -168,3 +168,93 @@ footer{
   background-color: #e0ddd3;
 
 }
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+.company-name p {
+ padding: 3px;
+ font-size: 31px;
+  background-color: #eee;
+font-family: 'Questrial', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+ padding: 0;
+ 
+}
+
+ul {
+ margin-top: 0;
+
+
+}
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+.company-name p {
+ padding: 3px;
+ font-size: 31px;
+  background-color: #eee;
+font-family: 'Questrial', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+ padding: 0;
+ 
+}
+
+ul {
+ margin-top: 0;
+
+
+}
+
+
+
+}
+
+
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+
+
+
+.company-name p {
+ padding: 3px;
+ font-size: 31px;
+  background-color: #eee;
+font-family: 'Questrial', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+ padding: 0;
+ 
+}
+
+ul {
+ margin-top: 0;
+
+
+}
+
+
+
+
+
+}
