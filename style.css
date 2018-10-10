@@ -29,7 +29,7 @@ color: black;
   padding: 3px;
 
   font-size: 20px;
-  background-color: #eee;
+  background-color: #8FBC8B;
   font-family: 'Questrial', sans-serif;
 }
 
@@ -39,7 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+   /* background-color: #333;*/
 }
 .little-finger{
   font-size: 10px;
@@ -47,26 +47,6 @@ ul {
 
 }
 
-/*.btn {
-
-    background-color: inherit;
-    padding: 50px;
-    font-size: 6px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.btn:hover {
-  background: white;
-
-}
-
-.success {color: green;}
-.info {color: dodgerblue;}
-.warning {color: orange;}
-.danger {color: red;}
-.default {color: black;}
-*/
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -84,7 +64,7 @@ ul {
 .button5 {
     background-color: white;
     color: black;
-    border: 2px solid #555555;
+    border: 2px solid #335345;
 }
 
 .button5:hover {
@@ -92,6 +72,9 @@ ul {
     color: white;
 }
 
+.second{
+  background-color: #8FBC8B;
+}
 
 li {
     float: right;
@@ -122,7 +105,7 @@ li a:hover {
     width: 125%;
     /*margin-left: 20%;*/
     text-align: center;
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*margin-right: 50%;*/
 }
 
@@ -153,8 +136,8 @@ footer{
 
 
 .left {
-    text-align: center;
-  background-color: #e0ddd3;
+  text-align: center;
+  background-color: #8FBC8B;
 }
 .left h6{
 
@@ -163,21 +146,27 @@ footer{
 }
 
 .right{
-   padding:80px;
-     text-align: center;
+  padding:80px;
+  text-align: center;
   background-color: #e0ddd3;
 
 }
+.social-buttons{
+  width: 100%;
+  /*background-color: green;*/
 
 
+}
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 
+@media screen and (max-width: 980px) {
 .company-name p {
- padding: 3px;
+ /*padding: 1px;*/
  font-size: 31px;
   background-color: #eee;
-font-family: 'Questrial', sans-serif;
+ font-family: 'Questrial', sans-serif;
+
+}
 }
 
 ul {
@@ -195,46 +184,13 @@ ul {
 
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-
-.company-name p {
- padding: 3px;
- font-size: 31px;
-  background-color: #eee;
-font-family: 'Questrial', sans-serif;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
- padding: 0;
- 
-}
-
-ul {
- margin-top: 0;
 
 
-}
-
-
-
-}
-
-
-
-
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2)
+@media screen and (max-width: 768px)
 {
 
-
-
-.company-name p {
- padding: 3px;
+  .company-name p {
+ padding: 1px;
  font-size: 31px;
   background-color: #eee;
 font-family: 'Questrial', sans-serif;
@@ -253,6 +209,29 @@ ul {
 
 }
 
+}
+
+@media screen and (max-width: 640px) {
+
+.company-name p {
+ padding: 1px;
+ font-size: 31px;
+  background-color: #eee;
+font-family: 'Questrial', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+ padding: 0;
+ 
+}
+
+ul {
+ margin-top: 0;
+
+
+}
 
 
 
