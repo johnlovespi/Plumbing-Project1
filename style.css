@@ -91,7 +91,8 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     color: white;
-    background-color: #bdc3c7;
+    background-color: #8FBC8B;
+    text-decoration:none;
 }
 /*carousel start*/
 .carousel-inner img {
